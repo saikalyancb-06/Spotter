@@ -1,0 +1,7 @@
+{
+  "mae": 106.20197846742849,
+  "rmse": 648.8865184204745,
+  "r2": 0.8197918228037907,
+  "split": "train: 2025-01-01 through 2025-09-30; holdout: 2025-10-01 through 2025-10-31",
+  "model": "5-Seed HistGradientBoostingRegressor Ensemble"
+}

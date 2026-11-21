@@ -1,0 +1,47 @@
+{
+  "ranking": [
+    {
+      "model": "hist_gradient_boosting",
+      "cv_mae": 131.26481163227427,
+      "holdout_mae": 106.6562199497962,
+      "holdout_rmse": 648.6720414979526,
+      "holdout_r2": 0.8199109317899492,
+      "seconds": 3.7
+    },
+    {
+      "model": "xgboost",
+      "cv_mae": 124.32848618529844,
+      "holdout_mae": 107.8063201476686,
+      "holdout_rmse": 646.811851736796,
+      "holdout_r2": 0.8209423297281351,
+      "seconds": 4.1
+    },
+    {
+      "model": "gradient_boosting_huber",
+      "cv_mae": 127.5012222577675,
+      "holdout_mae": 114.5808745870451,
+      "holdout_rmse": 648.9357454316751,
+      "holdout_r2": 0.8197644792045524,
+      "seconds": 84.2
+    },
+    {
+      "model": "extra_trees",
+      "cv_mae": 160.72264827005685,
+      "holdout_mae": 148.46168636896178,
+      "holdout_rmse": 661.1056618387842,
+      "holdout_r2": 0.8129409412815927,
+      "seconds": 6.0
+    },
+    {
+      "model": "random_forest",
+      "cv_mae": 233.38763628996307,
+      "holdout_mae": 231.65344933751857,
+      "holdout_rmse": 699.6313237969715,
+      "holdout_r2": 0.790504121971153,
+      "seconds": 17.4
+    }
+  ],
+  "selected_model": "hist_gradient_boosting",
+  "selection_metric": "Holdout MAE (October 2025)",
+  "timestamp": "2026-11-21T20:27:33.554927"
+}

@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / ambient files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+.vscode/
+.idea/
+
+# Exclude PDF files per submission instructions
+*.pdf
